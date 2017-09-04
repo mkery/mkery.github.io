@@ -1,0 +1,219 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 auto;
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+	font-size: 14px;
+}
+
+.backImage{
+	position: fixed;
+	z-index: -1;
+	width: 100%;
+	height: auto;
+}
+
+
+a {
+	color: orangered;
+}
+
+hr{
+	border-top: 4px solid black;
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
+
+.backdropBaby{
+	position: absolute;
+	top: 200px;
+	left: 0px;
+	width: calc(20% + 8em);
+}
+
+.container{
+	flex: 1 1 auto;
+	width: 80%;
+	margin: auto;
+	position: relative;
+}
+
+
+.mbTitle{
+	color: rgba(197,239,230,0.70);
+	margin-top: 80px;
+	font-family: 'Baloo', cursive;
+	font-size: 70px;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 1em;
+	position: relative;
+}
+.mbTitle-B{
+	color: white;
+	opacity: 0.8;
+	position: absolute;
+	top: -1px;
+	z-index: 1;
+	font-size: 70px;
+	width: 100%;
+	left: -2px;
+}
+
+.sectionHeader{
+	font-family: 'Baloo', cursive;
+	font-size: 18pt;
+	margin-bottom: -5px;
+}
+
+.mbSubtitle{
+	font-size: 16px;
+	margin-top: -10px;
+	display: block;
+	color: orangered;
+	font-family: 'Merriweather', monospace;
+}
+
+.personalIntro{
+	font-size: 12pt;
+	font-family: 'Merriweather', monospace;
+	color: #593536;
+}
+
+.profileCol{
+	display: inline-block;
+	width: 11em;
+	margin-left: -10px;
+	background-color: rgba(245,245,245,0.90) ;
+	padding: 10px;
+}
+
+.profileDesc{
+	float: right;
+	width: calc(100% - 14em - 30px);
+	text-align: justify;
+	display: inline-block;
+	background-color: white;
+	padding: 30px;
+}
+
+.profileDesc li{
+	background-color: white; 
+	margin-bottom: 1em;
+}
+
+.profileImg{
+	display: block;
+	float: left;
+	width: 115%;
+	height: auto;
+	margin-top: -3em;
+}
+.folioTitle{
+	position: absolute;
+	font-family: 'Merriweather', monospace;
+	top: 125px;
+	left: -1.5em;
+	font-size: 2.5em;
+	color: orangered;
+	z-index: -1;
+	
+	/* Safari */
+	-webkit-transform: rotate(38deg);
+
+	/* Firefox */
+	-moz-transform: rotate(38deg);
+
+	/* IE */
+	-ms-transform: rotate(38deg);
+
+	/* Opera */
+	-o-transform: rotate(38deg);
+}
+
+.profileImg-caption{
+	font-family: 'Baloo', cursive;
+	font-size: 9pt;
+}
+
+.projectTitle{
+	font-family: 'Baloo', cursive;
+	font-size: 14pt;
+}
+
+.address{
+	font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+}
+
+.profileImg-caption a{
+	font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+	display: block;
+	color: rgba(107,0,70,1.00);
+	font-size: 10pt;
+	margin-top: 10px;
+}
+
+.projectGemCol{
+	text-align: center;
+	border: 3px solid #D6E6F6;
+	vertical-align: top;
+	padding-top: 10px;
+	width: 10em;
+}
+.projectGemCol.old{
+	width: 40%;
+}
+.projectGem {
+	display: inline-block;
+	width: auto;
+	height: 6em;
+}
+.projectGem.old {
+	display: inline-block;
+	width: 100%;
+	height: auto;
+}
+
+.projectGem-attribution{
+	font-size: 8pt;
+	font-style: italic;
+	color: #808080;
+	text-align: center
+}
+.projectDesc{
+	vertical-align: top;
+	padding: 5px;
+	padding-bottom: 2em;
+	border-top: 1px solid pink;
+	border-bottom: 1px solid pink;
+}
+.projectImage{
+	margin-top: 5px;
+	width: 80%;
+	margin-left: 5%;
+	height: auto;
+	display: block;
+}
+
+.paperYear{
+	font-family: 'Baloo', cursive;
+	margin-right: 2em;
+}
+
+.studentSection{
+	position: relative;
+}
+
+.studentHoverBar{
+	position: absolute;
+	top: 0px;
+	left: -210px;
+	width: 200px;
+	height: 100%;
+	background-color: pink;
+}
