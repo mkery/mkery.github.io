@@ -10,11 +10,14 @@ body{
 	font-size: 14px;
 }
 
+
 .backImage{
 	position: fixed;
 	z-index: -1;
 	width: 100%;
 	height: auto;
+	display: inline-flex;
+	text-align: center;
 }
 
 
@@ -41,7 +44,10 @@ hr{
 	margin: auto;
 	position: relative;
 }
-
+.container.artFocus{
+	-webkit-filter: blur(3px);
+    filter: blur(3px);
+}
 
 .mbTitle{
 	color: rgba(197,239,230,0.70);
@@ -216,4 +222,114 @@ hr{
 	width: 200px;
 	height: 100%;
 	background-color: pink;
+}
+
+.artContainer{
+	margin: 0px;
+	display: flex;
+	flex-direction: row;
+	padding: 2px;
+	border: 1px solid #e0e0e0;
+}
+
+.art{
+	object-fit: cover;
+	width: 5em;
+	height: 10em;
+	display: inline-block;
+	flex: 1 1 auto;
+	padding: 1px;
+	margin: 1px;
+	border: 1px solid #808080;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.art:hover{
+	-webkit-filter: none;
+    filter: none;
+}
+
+.blurCover{
+	visibility: hidden;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255, 0.65);
+	z-index: 5;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+}
+
+.artDetailContainer{
+	width: 80%;
+	margin: auto;
+	margin-top: 10em;
+	min-height: 15em;
+	background: rgba(255,255,255,0.9);
+}
+
+.artDetailContainer{
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+	width: 60%;
+	max-width: 80%;
+	margin: auto;
+	margin-top: 20px;
+	min-height: 15em;
+	background: rgba(255,255,255,0.9);
+	padding: 20px;
+	border: 2px solid #808080;
+	text-align: center;
+}
+
+.artDetail{
+	max-width: 90%;
+	height: auto;
+	margin: auto;
+	display: inline-flex;
+	float: center;
+	flex: 1 1 auto;
+}
+
+.prevArrow{
+	display: inline-flex;
+	float: left;
+	font-size: 28pt;
+	position: relative;
+	flex: 1 1 auto;
+	margin-top: calc(40% - 28pt);
+	cursor: default;
+}
+.prevArrow.inactive{
+	color: #e0e0e0;
+}
+.prevArrow.inactive:hover{
+	background: transparent;
+}
+.prevArrow:hover{
+	background: yellow;
+}
+
+.nextArrow{
+	display: inline-flex;
+	float: right;
+	position: relative;
+	cursor: default;
+	margin-top: calc(40% - 28pt);
+	font-size: 28pt;
+	flex: 1 1 auto;
+}
+.nextArrow:hover{
+	background: yellow;
+}
+.nextArrow.inactive{
+	color: #e0e0e0;
+}
+.nextArrow.inactive:hover{
+	background: transparent;
 }
