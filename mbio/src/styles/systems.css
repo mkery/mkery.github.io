@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	font-family: "Lora", serif;
+	text-align: center;
+	font-size: 11pt;
+}
+
+p{
+	width: 90%;
+	margin: auto;
+	text-align: left;
+}
+
+h1{
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 30pt;
+	font-weight: 200;
+}
+
+.acronym{
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.titleStone{
+	height: 2.5em;
+	width: auto;
+	float: left;
+	margin-left: 5px;
+}
+
+.mainTitleStone{
+	display: inline-block;
+	height: 28pt;
+	width: auto;
+	margin-left: 5px;
+}
+
+.headerImage{
+	width: 100%;
+	display: block;
+	height: auto;
+	max-height: 15em;
+	object-fit: cover;
+	border-bottom: 2px solid #202020;
+	border-top: 2px solid #202020;
+}
+
+.navBar
+{
+	display: inline-block;
+	width: 100%;
+	margin: 5px;
+}
+
+.headerButton{
+	display: inline-block;
+	float: right;
+	font-family: "Open Sans Condensed", sans-serif;
+	font-size: 14pt;
+	padding: 5px;
+	border: 1px solid #a0a0a0;
+	border-radius: 5px;
+	margin-right: 10px;
+	cursor: default;
+}
+.headerButton:hover{
+	background: aliceblue;
+}
+
+.headerTitle{
+	display: inline-block;
+	float: left;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 18pt;
+	font-weight: 200;
+	padding-top: 8px;
+	margin-left: 5px;
+}
+
+.headerIcon{
+	display: inline-block;
+	height: 1.5em;
+	width: auto;
+	float: left;
+	margin-right: 10px;
+	margin-left: 5px;
+}
+
+.headerImageContainer{
+	display: inline-block;
+	margin-bottom: 2px;
+	position: relative;
+}
+
+.headerImageSubtitle{
+	font-style: italic;
+	display: block;
+	position: absolute;
+	font-family: "Open Sans Condensed", sans-serif;
+	color: #f0f0f0;
+	font-size: 11pt;
+	padding: 10px;
+	bottom: 5px;
+	width: 100%;
+	background: rgba(50, 50, 80, 0.8);
+}
+
+.citation{
+	width: 60%;
+	margin: auto;
+	text-align: left;
+	padding: 20px;
+	background: rgba(235,246,248,1.00);
+	border-radius: 5px;
+}
+
+.abstract{
+	font-size: 10pt;
+	color: #404040;
+}
+
+.bottomLogo{
+	display: block;
+	margin: auto;
+	height: 8em;
+	width: auto;
+	margin-bottom: 20px;	
+}
+
+.footer{
+	margin-top: 5em;
+	font-size: 10pt;
+	color: #a8a8a8;
+}

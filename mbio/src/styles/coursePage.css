@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.courseTitle{
+	color: black;
+}
+
+.courseStatCol{
+	display: inline-block;
+	float: left;
+	width: 20%;
+}
+
+.syllabusTable{
+	border-spacing: 3em 0;
+}
+
+.syllabusTable td {
+  border-bottom: 3px solid transparent;
+}
+
+.courseDescCol{
+	float: left;
+	width: calc(80% - 3em);
+	margin-left: 3em;
+	text-align: justify;
+	display: inline-block;
+	background-color: rgba(255, 255, 255, 0.8); 
+}
