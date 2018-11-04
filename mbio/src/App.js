@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import Bio from "./Bio.js";
 import ProjectList from "./ProjectList.js";
+import ArtList from "./ArtList.js";
 
 class App extends Component {
   render() {
@@ -12,6 +13,8 @@ class App extends Component {
         <Bio />
         <div className="header project-header">Projects</div>
         <ProjectList />
+        <div className="header art-header">Art & Stuff</div>
+        <ArtList />
         <footer>Mary Beth Kery 2018 all rights reserved</footer>
       </div>
     );

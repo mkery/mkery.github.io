@@ -9,7 +9,6 @@ class ProjectList extends Component {
         <PaperProject name="Verdant" />
         <PaperProject name="APIs" />
         <PaperProject name="ErrorHandling" />
-        <PaperProject name="Misc" />
       </div>
     );
   }

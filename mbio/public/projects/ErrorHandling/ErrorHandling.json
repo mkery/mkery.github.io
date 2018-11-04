@@ -1,0 +1,4 @@
+{
+  "title": "Error-prone Error Handling in Java",
+  "desc": "In this collaborative project we mined Github to investage how Java error handing constructs are used in practice (poorly), and developed new kinds of interactions for the Eclipse IDE to help developers find and fix common error handing Java anti-patterns."
+}

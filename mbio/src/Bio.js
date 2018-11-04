@@ -23,20 +23,27 @@ class Bio extends Component {
             <a href={cv}>cv</a>
             <br />
             4607 Newell-Simon Hall
+            <br />
+            pronouns: she/her
           </div>
         </div>
         <div className="row-right Bio-intro">
-          Greetings! I am a 3rd year PhD student at the Human-Computer
-          Interaction Institute (HCII) at Carnegie Mellon University. I am a
-          part of the Natural Programming Lab, and advised by Professor Brad
-          Myers. I did my undergrad at Wellesley College, and studied computer
-          science and art.
-          <br />
-          <br />I research creativity support, particularly for exploratory
-          programming tasks. My current work is in studying creative and
-          exploratory programming practices, and studying individuals who
-          perform exploratory tasks with data, such as developing machine
-          learning models or exploratory data analysis.
+          Greetings! I am a 4th year PhD student. I research programming
+          practices, with a general goal to improve developer experience for
+          all. My current focus is to use HCI methods to study and design/create
+          new tools to support individuals who do data science coding such as
+          developing machine learning models or exploratory data analysis. ＼ʕ
+          •ᴥ• ʔ／
+          <br /> <br />
+          At the{" "}
+          <a href="https://hcii.cmu.edu/">
+            Human-Computer Interaction Institute
+          </a>{" "}
+          at Carnegie Mellon University in the the{" "}
+          <a href="http://www.cs.cmu.edu/~NatProg/">
+            Natural Programming (BAM) Group
+          </a>
+          . Prior, I did my BA at Wellesley College in CS.
           <br /> <br />
           //background-image: a programmer for the 1940 US census. Just a
           reminder that the nature of what programming is and who does

@@ -8,11 +8,26 @@ const projectDir = path.join(process.env.PUBLIC_URL, "projects");
 
 class PaperProject extends Component {
   state = {
-    bibData: null
+    bibData: null,
+    title: null,
+    desc: null
   };
 
   componentDidMount() {
     this.loadPapers();
+    this.loadDesc();
+  }
+
+  loadDesc() {
+    let verdantPath = path.resolve(projectDir, this.props.name);
+    fetch(verdantPath + "/" + this.props.name + ".json")
+      .then(response => {
+        return response.json();
+      })
+      .then(jsn => {
+        this.setState({ title: jsn.title });
+        this.setState({ desc: jsn.desc });
+      });
   }
 
   loadPapers() {
@@ -25,7 +40,7 @@ class PaperProject extends Component {
         Cite.async(findresponse).then(formatted => {
           let papers = [];
           formatted.data.map(item => {
-            console.log(item);
+            //console.log(item);
             let cite = new Cite(item);
             let citation = cite.get({
               format: "string",
@@ -48,19 +63,12 @@ class PaperProject extends Component {
     return (
       <div className="row">
         <div className="row-left">
-          <img
-            className="Bio-image"
-            src={
-              projectDir +
-              "/" +
-              this.props.name +
-              "/" +
-              this.props.name +
-              ".png"
-            }
-          />
+          <div className="project-title">{this.state.title}</div>
         </div>
-        <div className="row-right">{this.showBib()}</div>
+        <div className="row-right">
+          <div className="Bio-intro">{this.state.desc}</div>
+          {this.showBib()}
+        </div>
       </div>
     );
   }
