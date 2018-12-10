@@ -5,7 +5,7 @@ const github = "https://github.com/mkery";
 const scholar =
   "https://scholar.google.com/citations?user=KR8gY5kAAAAJ&hl=en&oi=ao";
 const cv =
-  "file:///Users/mkery/Desktop/mkery.github.io/resources/marybethkerycv.pdf";
+  "https://docs.google.com/document/d/1oeHCv2ClCO9JYpBACE7vhEUNlH211JMYnNpfbl9jYgY/edit?usp=sharing";
 
 class Bio extends Component {
   render() {
