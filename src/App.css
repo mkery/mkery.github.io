@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Baloo|Roboto");
+@import url("https://fonts.googleapis.com/css?family=Baloo|Roboto|Work+Sans");
 
 body {
   background-image: url("images/NARA.jpg");
@@ -7,8 +7,10 @@ body {
   background-position: center top;
   min-height: 100vh;
   text-align: center;
-  font-family: "Roboto", sans-serif;
-  font-size: 11pt;
+  font-family: "Work Sans", sans-serif;
+  color: #222;
+  font-size: 13pt;
+  line-height: 20pt;
   background-attachment: fixed;
 }
 
@@ -21,52 +23,62 @@ footer {
   font-weight: lighter;
   padding: 2px 5px;
   float: right;
+  font-size: 10pt;
 }
 
 a {
-  color: orangered;
+  color: #701516;
 }
 
 .header {
-  font-family: "Baloo", cursive;
-  font-size: 70px;
-  display: inline-block;
+  background: #ffffff;
+  padding: 8px;
+  display: flex;
+  position: fixed;
   width: 100%;
-  margin-bottom: -20px;
-  position: relative;
-  color: orangered;
 }
 
-.name-header {
-  color: rgba(197, 239, 230, 0.7);
-  margin-top: 80px;
-  text-align: center;
-}
-.name-header::after {
-  content: "Mary Beth Kery";
-  color: white;
-  opacity: 0.8;
-  position: absolute;
-  top: -1px;
-  z-index: 1;
-  font-size: 70px;
-  width: 100%;
-  left: -2px;
+.header-name {
+  font-size: 20pt;
+  font-weight: 900;
+  font-family: "Work Sans", sans-serif;
+  padding: 8px;
 }
 
-.name-subtitle {
-  font-size: 16px;
-  color: lightgoldenrodyellow;
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
+.nav {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-right {
+  justify-content: flex-end;
+}
+
+.nav-title {
+  padding: 8px;
+  margin-right: 1em;
+  margin-left: 1em;
+  cursor: default;
+  color: #444;
+}
+.nav-title:hover {
+  font-weight: bold;
+  color: #000;
+}
+
+.subtitle {
+  margin-top: calc(20pt + 34px);
+  color: #56ff06;
+  font-family: monospace;
   background: black;
   display: inline-block;
-  padding: 2px 5px;
+  padding: 8px;
 }
 
 .row {
   background-color: rgba(245, 245, 245, 0.9);
-  margin: auto;
+  margin: 1em;
   margin-top: 1.5em;
   display: flex;
   text-align: left;
@@ -77,6 +89,7 @@ a {
   max-width: 12em;
   padding: 10px;
   padding-bottom: 1em;
+  border-right: 2px solid #ddd;
 }
 
 .row-right {
@@ -85,20 +98,20 @@ a {
   min-height: 100px;
   flex: 1 1 auto;
   float: right;
-  padding: 10px;
+  padding: 20px;
   padding-bottom: 1em;
 }
 
 .Bio-row {
-  width: 80%;
-  margin-top: 4em;
+  margin-top: 40%;
 }
 
 .Bio-image {
   background-image: url("./images/mbPortrait2.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 200px;
+  width: 100%;
+  height: 250px;
   margin-bottom: 10px;
 }
 
@@ -107,30 +120,14 @@ a {
   line-height: 20pt;
   font-size: 10pt;
   color: black;
-  padding-left: 5px;
-}
-
-.Bio-intro {
-  font-size: 14pt;
-  line-height: 20pt;
-  color: #593536;
+  padding: 5px;
 }
 
 .project-header {
-  text-align: left;
-  margin-left: 10%;
-  opacity: 0.8;
-  top: 0.25em;
-}
-.project-header::after {
-  content: "Projects";
   color: white;
-  position: absolute;
-  top: -1px;
-  z-index: 1;
-  font-size: 70px;
-  width: 100%;
-  left: -2px;
+  text-align: center;
+  margin: auto;
+  top: 0.25em;
 }
 
 .paper {
@@ -146,25 +143,14 @@ a {
   font-weight: bold;
   width: 100%;
   margin-bottom: 10px;
-  font-size: 16pt;
   text-align: right;
 }
 
 .art-header {
   text-align: left;
-  margin-left: 10%;
-  opacity: 0.8;
+  margin-left: 20px;
+  opacity: 1;
   top: 0.25em;
-}
-.art-header::after {
-  content: "Art & Stuff";
-  color: white;
-  position: absolute;
-  top: -1px;
-  z-index: 1;
-  font-size: 70px;
-  width: 100%;
-  left: -2px;
 }
 
 .cube {
