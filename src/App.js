@@ -1,21 +1,64 @@
 import React, { Component } from "react";
 import "./App.css";
-import Bio from "./Bio.js";
-import ProjectList from "./ProjectList.js";
-import ArtList from "./ArtList.js";
+import AboutPage from "./About";
+import ArtPage from "./Art";
+import TeachingPage from "./Teaching";
+
+const PAGES = {
+  ABOUT: { label: "About", component: AboutPage },
+  TEACHING: { label: "Teaching", component: TeachingPage },
+  ART: { label: "Art", component: ArtPage },
+};
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      page: PAGES.ABOUT,
+    };
+  }
+
   render() {
     return (
       <div className="App">
-        <div className="header name-header">Mary Beth Kery</div>
-        <div className="name-subtitle">HCI researcher + Artist + Developer</div>
-        <Bio />
-        <div className="header project-header">Projects</div>
-        <ProjectList />
-        <div className="header art-header">Art & Stuff</div>
-        <ArtList />
-        <footer>Mary Beth Kery 2018 all rights reserved</footer>
+        <div className="header">
+          <div className="nav nav-left">
+            {this.showPageTitle(PAGES.ABOUT)}
+            <div className="nav-title">
+              <a href="https://docs.google.com/document/d/1oeHCv2ClCO9JYpBACE7vhEUNlH211JMYnNpfbl9jYgY/edit">
+                CV
+              </a>
+            </div>
+          </div>
+          <div
+            className="header-name"
+            onClick={() => this.setState({ page: PAGES.ABOUT })}
+          >
+            MARY BETH KERY
+          </div>
+          <div className="nav nav-right">
+            {this.showPageTitle(PAGES.TEACHING)}
+            {this.showPageTitle(PAGES.ART)}
+          </div>
+        </div>
+        <div className="subtitle">
+          {"/* Designing & teaching for futures of programming */"}
+        </div>
+        {<this.state.page.component />}
+        <footer>Mary Beth Kery 2020 all rights reserved</footer>
+      </div>
+    );
+  }
+
+  showPageTitle(title) {
+    return (
+      <div
+        className={`nav-title ${
+          this.state.page.label === title.label ? "current" : ""
+        }`}
+        onClick={() => this.setState({ page: title })}
+      >
+        {title.label}
       </div>
     );
   }
