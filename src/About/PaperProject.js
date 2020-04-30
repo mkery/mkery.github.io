@@ -2,15 +2,13 @@ import React, { Component } from "react";
 import * as path from "path";
 import * as Cite from "citation-js";
 
-import "./App.css";
-
 const projectDir = path.join(process.env.PUBLIC_URL, "projects");
 
 class PaperProject extends Component {
   state = {
     bibData: null,
     title: null,
-    desc: null
+    desc: null,
   };
 
   componentDidMount() {
@@ -21,10 +19,10 @@ class PaperProject extends Component {
   loadDesc() {
     let verdantPath = path.resolve(projectDir, this.props.name);
     fetch(verdantPath + "/" + this.props.name + ".json")
-      .then(response => {
+      .then((response) => {
         return response.json();
       })
-      .then(jsn => {
+      .then((jsn) => {
         this.setState({ title: jsn.title });
         this.setState({ desc: jsn.desc });
       });
@@ -33,27 +31,27 @@ class PaperProject extends Component {
   loadPapers() {
     let verdantPath = path.resolve(projectDir, this.props.name);
     fetch(verdantPath + "/" + this.props.name + ".bib")
-      .then(response => {
+      .then((response) => {
         return response.text();
       })
-      .then(findresponse => {
-        Cite.async(findresponse).then(formatted => {
+      .then((findresponse) => {
+        Cite.async(findresponse).then((formatted) => {
           let papers = [];
-          formatted.data.map(item => {
+          formatted.data.map((item) => {
             //console.log(item);
             let cite = new Cite(item);
             let citation = cite.get({
               format: "string",
               type: "string",
               style: "citation-apa",
-              lang: "en-US"
+              lang: "en-US",
             });
             let url = projectDir + "/" + this.props.name + "/" + item.URL;
             papers.push({ url: url, citation: citation });
           });
 
           this.setState({
-            bibData: papers
+            bibData: papers,
           });
         });
       });
@@ -75,7 +73,7 @@ class PaperProject extends Component {
 
   showBib() {
     if (this.state.bibData) {
-      return this.state.bibData.map(paper => (
+      return this.state.bibData.map((paper) => (
         <div className="paper">
           {paper.citation}
           <div className="paperLink">

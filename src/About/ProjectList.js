@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import PaperProject from "./PaperProject";
-import "./App.css";
 import Script from "react-load-script";
 
 class ProjectList extends Component {
@@ -12,7 +11,7 @@ class ProjectList extends Component {
         <PaperProject name="ErrorHandling" />
         <div className="githubcard">
           <div
-            class="github-card"
+            className="github-card"
             data-github="mkery/Verdant"
             data-width="400"
             data-height="153"

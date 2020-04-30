@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Baloo|Roboto|Work+Sans");
 
 body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
   background-image: url("images/NARA.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -22,12 +27,20 @@ footer {
   display: inline-block;
   font-weight: lighter;
   padding: 2px 5px;
-  float: right;
   font-size: 10pt;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
 a {
   color: #701516;
+}
+
+b {
+  font-weight: bold;
 }
 
 .header {
@@ -43,6 +56,7 @@ a {
   font-weight: 900;
   font-family: "Work Sans", sans-serif;
   padding: 8px;
+  cursor: pointer;
 }
 
 .nav {
@@ -59,12 +73,20 @@ a {
   padding: 8px;
   margin-right: 1em;
   margin-left: 1em;
-  cursor: default;
+  cursor: pointer;
   color: #444;
+}
+.nav-title.current {
+  font-weight: bold;
+  color: #0a3348;
 }
 .nav-title:hover {
   font-weight: bold;
   color: #000;
+}
+.nav-title a {
+  color: #444;
+  text-decoration: none;
 }
 
 .subtitle {
@@ -107,7 +129,7 @@ a {
 }
 
 .Bio-image {
-  background-image: url("./images/mbPortrait2.jpg");
+  background-image: url("./images/mbPortrait.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   width: 100%;
@@ -121,6 +143,11 @@ a {
   font-size: 10pt;
   color: black;
   padding: 5px;
+}
+
+.Bio-intro-detail {
+  font-size: 10pt;
+  font-style: italic;
 }
 
 .project-header {

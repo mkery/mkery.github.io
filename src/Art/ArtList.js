@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Video from "./Video.js";
 import Portfolio from "./Portfolio.js";
-import "./App.css";
 
 class ArtList extends Component {
   render() {
