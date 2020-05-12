@@ -3,11 +3,13 @@ import "./App.css";
 import AboutPage from "./About";
 import ArtPage from "./Art";
 import TeachingPage from "./Teaching";
+import UCREPage from "./UX/ucre.js";
 
 const PAGES = {
   ABOUT: { label: "About", component: AboutPage },
   TEACHING: { label: "Teaching", component: TeachingPage },
   ART: { label: "Art", component: ArtPage },
+  UX: { label: "UX", component: UCREPage },
 };
 
 class App extends Component {
@@ -38,16 +40,25 @@ class App extends Component {
           </div>
           <div className="nav nav-right">
             {this.showPageTitle(PAGES.TEACHING)}
+            {this.showPageTitle(PAGES.UX)}
             {this.showPageTitle(PAGES.ART)}
           </div>
         </div>
-        <div className="subtitle">
-          {"/* Designing & teaching for futures of programming */"}
-        </div>
+        {this.showSubtitle()}
         {<this.state.page.component />}
         <footer>Mary Beth Kery 2020 all rights reserved</footer>
       </div>
     );
+  }
+
+  showSubtitle() {
+    if (this.state.page === PAGES.ABOUT)
+      return (
+        <div className="subtitle">
+          {"/* Designing & teaching for futures of programming */"}
+        </div>
+      );
+    return <div className="subtitle" />;
   }
 
   showPageTitle(title) {

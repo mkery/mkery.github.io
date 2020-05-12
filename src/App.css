@@ -106,6 +106,68 @@ b {
   text-align: left;
 }
 
+.row.nav {
+  background-color: transparent;
+  margin-bottom: 4px;
+}
+
+.row.nav .title {
+  color: cornsilk;
+  font-size: 10pt;
+  padding: 2px 8px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 1px solid gainsboro;
+  padding-right: 30px;
+}
+
+.row.heading {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: white;
+}
+
+.row.heading .content {
+  width: calc(100% - 12em);
+  margin: auto;
+}
+
+.row.ux {
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+
+.row.ux .row-left {
+  background-color: rgba(245, 245, 245, 0.5);
+}
+
+.row.ux h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 20pt;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-decoration: overline;
+}
+
+.row.ux h2 {
+  font-weight: 100;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.row.ux h3 {
+  color: #0a3348;
+  font-weight: 100;
+  margin-bottom: 2px;
+}
+
+.row.ux span,
+.row.ux li {
+  line-height: unset;
+  font-size: 11pt;
+}
+
 .row-left {
   min-width: 12em;
   max-width: 12em;
