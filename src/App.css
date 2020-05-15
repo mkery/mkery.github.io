@@ -328,3 +328,23 @@ b {
     max-height: none;
   }
 }
+
+.imageFrame {
+  width: 50vw;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 2em;
+}
+
+.imageFrame img {
+  width: 100%;
+}
+
+.imageCaption {
+  text-align: justify;
+  font-size: small;
+  color: #888;
+  width: 90%;
+  margin: auto;
+  line-height: 1.25em;
+}
