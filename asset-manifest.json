@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.bf4bd58b.chunk.css",
-    "main.js": "/static/js/main.88ac9281.chunk.js",
-    "main.js.map": "/static/js/main.88ac9281.chunk.js.map",
+    "main.css": "/static/css/main.7c280fa3.chunk.css",
+    "main.js": "/static/js/main.8d701896.chunk.js",
+    "main.js.map": "/static/js/main.8d701896.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b7d46f45.js",
     "runtime-main.js.map": "/static/js/runtime-main.b7d46f45.js.map",
-    "static/js/2.42ef3ce5.chunk.js": "/static/js/2.42ef3ce5.chunk.js",
-    "static/js/2.42ef3ce5.chunk.js.map": "/static/js/2.42ef3ce5.chunk.js.map",
+    "static/js/2.51172c69.chunk.js": "/static/js/2.51172c69.chunk.js",
+    "static/js/2.51172c69.chunk.js.map": "/static/js/2.51172c69.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.240b98aefdf66e55ea8e8e9b661fc8f6.js": "/precache-manifest.240b98aefdf66e55ea8e8e9b661fc8f6.js",
+    "precache-manifest.ea96735414ac0f77ad06067a9a474205.js": "/precache-manifest.ea96735414ac0f77ad06067a9a474205.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.bf4bd58b.chunk.css.map": "/static/css/main.bf4bd58b.chunk.css.map",
-    "static/js/2.42ef3ce5.chunk.js.LICENSE.txt": "/static/js/2.42ef3ce5.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/mbPortrait.29a10eab.jpg"
+    "static/css/main.7c280fa3.chunk.css.map": "/static/css/main.7c280fa3.chunk.css.map",
+    "static/js/2.51172c69.chunk.js.LICENSE.txt": "/static/js/2.51172c69.chunk.js.LICENSE.txt",
+    "static/media/Crazy8.png": "/static/media/Crazy8.dd73cf8f.png",
+    "static/media/Interview_Data_Affinity_Diagram.jpg": "/static/media/Interview_Data_Affinity_Diagram.18ae1cfc.jpg",
+    "static/media/App.css": "/static/media/mbPortrait.29a10eab.jpg",
+    "static/media/Reframing.png": "/static/media/Reframing.cbda7e6e.png",
+    "static/media/SpeedDating1.png": "/static/media/SpeedDating1.6a6da3e0.png",
+    "static/media/SpeedDating2.png": "/static/media/SpeedDating2.31e27e95.png",
+    "static/media/stakeholders-art.jpg": "/static/media/stakeholders-art.c2bed197.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b7d46f45.js",
-    "static/js/2.42ef3ce5.chunk.js",
-    "static/css/main.bf4bd58b.chunk.css",
-    "static/js/main.88ac9281.chunk.js"
+    "static/js/2.51172c69.chunk.js",
+    "static/css/main.7c280fa3.chunk.css",
+    "static/js/main.8d701896.chunk.js"
   ]
 }
