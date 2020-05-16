@@ -198,8 +198,67 @@ export default class UCREPage extends Component {
                 there" to push at users' values.
               </div>
             </div>
-            I ran a Speed Dating study with two participants, on 9 different
-            storyboards.
+            <span>
+              I ran a Speed Dating study with two participants, on 9 different
+              storyboards. Key takeaways from this design exercise were that:
+              <ul>
+                <li>
+                  Some people really appreciate the low barrier to entry and
+                  sense of community that comes with sharing art in online
+                  platforms, such as Instagram.
+                </li>
+                <li>
+                  Some people really look forward to displaying their art in
+                  formal public settings, but find the prospect of applying to
+                  do this intimidating.
+                </li>
+                <li>
+                  It is unlikely to find a one-size-fits-all kind of art
+                  activity or program that all people find inspiring to make
+                  art. Individuals have their own preferences when it comes to
+                  creating.
+                </li>
+              </ul>
+            </span>
+          </div>
+        </div>
+
+        <div className="row ux">
+          <div className="row-left">
+            <h2>Proposal & Next Steps</h2>
+          </div>
+          <div className="row-right">
+            <span>
+              At this point in the design process, I've scoped our goal towards
+              facilitating local schoolchildren and members of the Pittsburgh
+              community to share their art for public display. Our proposed
+              solution balances the low barrier to entry and administrative ease
+              of a digital solution, with the physical presence of Pittsburgh
+              public arts pieces.
+            </span>
+            <h3>Art by the Public / Public Art</h3>
+            <span>
+              We propose that at selected public art sites throughout the city,
+              Pittsburgh install digital screens appropriate to those sites. The
+              screens will display a weekly updating selection of art by the
+              citizens of Pittsburgh, with a mix of local artist, amateur,
+              senior citizen, and local kid art to make all citizens feel
+              celebrated. Citizens can submit their art from their own homes by
+              posting at a Twitter account #artbypublic_pittsburgh. Art by the
+              Public Program coordinators can also work directly with local
+              community centers, schools, and senior homes to have "themed"
+              pop-up art shows on the screens throughout the year. Since the
+              selection of artwork and update of the screens can all be done
+              remotely, we expect the program time and upkeep costs to stay low:
+              which is particularly important given Pittsburgh's lack of
+              existing community arts outreach programming.
+            </span>
+            <h3>Next Steps</h3>
+            <span>
+              Next up in this project would be to create higher-fidelity
+              storyboards and mockups to begin testing this idea with members of
+              the public and Pittsburgh Public Arts stakeholders.
+            </span>
           </div>
         </div>
       </div>
