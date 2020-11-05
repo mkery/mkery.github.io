@@ -1,29 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.7c280fa3.chunk.css",
-    "main.js": "/static/js/main.c3fdef69.chunk.js",
-    "main.js.map": "/static/js/main.c3fdef69.chunk.js.map",
+    "main.css": "/static/css/main.504bca00.chunk.css",
+    "main.js": "/static/js/main.ddd1b34c.chunk.js",
+    "main.js.map": "/static/js/main.ddd1b34c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b7d46f45.js",
     "runtime-main.js.map": "/static/js/runtime-main.b7d46f45.js.map",
-    "static/js/2.51172c69.chunk.js": "/static/js/2.51172c69.chunk.js",
-    "static/js/2.51172c69.chunk.js.map": "/static/js/2.51172c69.chunk.js.map",
+    "static/js/2.42ef3ce5.chunk.js": "/static/js/2.42ef3ce5.chunk.js",
+    "static/js/2.42ef3ce5.chunk.js.map": "/static/js/2.42ef3ce5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1d3263a3d04dd9545e6162a31b0ce32a.js": "/precache-manifest.1d3263a3d04dd9545e6162a31b0ce32a.js",
+    "precache-manifest.ebfb11abd98f3e07a59c778008e93a66.js": "/precache-manifest.ebfb11abd98f3e07a59c778008e93a66.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.7c280fa3.chunk.css.map": "/static/css/main.7c280fa3.chunk.css.map",
-    "static/js/2.51172c69.chunk.js.LICENSE.txt": "/static/js/2.51172c69.chunk.js.LICENSE.txt",
-    "static/media/Crazy8.png": "/static/media/Crazy8.dd73cf8f.png",
-    "static/media/Interview_Data_Affinity_Diagram.jpg": "/static/media/Interview_Data_Affinity_Diagram.18ae1cfc.jpg",
-    "static/media/App.css": "/static/media/mbPortrait.29a10eab.jpg",
-    "static/media/Reframing.png": "/static/media/Reframing.cbda7e6e.png",
-    "static/media/SpeedDating1.png": "/static/media/SpeedDating1.6a6da3e0.png",
-    "static/media/SpeedDating2.png": "/static/media/SpeedDating2.31e27e95.png",
-    "static/media/stakeholders-art.jpg": "/static/media/stakeholders-art.c2bed197.jpg"
+    "static/css/main.504bca00.chunk.css.map": "/static/css/main.504bca00.chunk.css.map",
+    "static/js/2.42ef3ce5.chunk.js.LICENSE.txt": "/static/js/2.42ef3ce5.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/marybethkery.4caa4bb0.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.b7d46f45.js",
-    "static/js/2.51172c69.chunk.js",
-    "static/css/main.7c280fa3.chunk.css",
-    "static/js/main.c3fdef69.chunk.js"
+    "static/js/2.42ef3ce5.chunk.js",
+    "static/css/main.504bca00.chunk.css",
+    "static/js/main.ddd1b34c.chunk.js"
   ]
 }
