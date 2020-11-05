@@ -3,13 +3,11 @@ import "./App.css";
 import AboutPage from "./About";
 import ArtPage from "./Art";
 import TeachingPage from "./Teaching";
-import UCREPage from "./UX/ucre.js";
 
 const PAGES = {
   ABOUT: { label: "About", component: AboutPage },
   TEACHING: { label: "Teaching", component: TeachingPage },
-  ART: { label: "Art", component: ArtPage },
-  UX: { label: "UX", component: UCREPage },
+  ART: { label: "Art & Fun", component: ArtPage },
 };
 
 class App extends Component {
@@ -31,6 +29,11 @@ class App extends Component {
                 CV
               </a>
             </div>
+            <div className="nav-title">
+              <a href="https://mary-beth-kery.medium.com/">
+                Medium
+              </a>
+            </div>
           </div>
           <div
             className="header-name"
@@ -40,7 +43,6 @@ class App extends Component {
           </div>
           <div className="nav nav-right">
             {this.showPageTitle(PAGES.TEACHING)}
-            {this.showPageTitle(PAGES.UX)}
             {this.showPageTitle(PAGES.ART)}
           </div>
         </div>

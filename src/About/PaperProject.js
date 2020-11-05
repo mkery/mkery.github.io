@@ -65,6 +65,7 @@ class PaperProject extends Component {
         </div>
         <div className="row-right">
           <div className="Bio-intro">{this.state.desc}</div>
+          <br/>
           {this.showBib()}
         </div>
       </div>

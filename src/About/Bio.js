@@ -27,16 +27,12 @@ class Bio extends Component {
           </div>
         </div>
         <div className="row-right Bio-intro">
-          I research programming practices, with a general goal to improve
-          developer experience for all. My current focus is to use HCI methods
+          <b>UX for code.</b> I research programming practices, with a general goal to improve
+          developer experience for all. I use HCI methods
           to study and design/create new tools to support individuals who do
           data or ML coding such as developing machine learning models or
-          exploratory data analysis.
-          <br /> <br />
-          I'm also working towards growing as an educator! I hope to teach
-          topics in HCI and human-centered data practices to give students the
-          technical depth and design sensitivity they need to navigate human
-          needs in our increasingly technically complex world.
+          exploratory data analysis. Also passionate about teaching HCI, programming, and human-centered
+          ML/AI/data practice topics to give students a balance between technical rigor, and ethical design sensitivity.
           <br /> <br />
           <b>Currently:</b> 5th year PhD student at the{" "}
           <a href="https://hcii.cmu.edu/">
@@ -48,9 +44,11 @@ class Bio extends Component {
             Natural Programming (BAM) Group
           </a>
           <br /> <br />
-          Previously: I've had the opportunity of research internships at Apple
-          Inc. and Bloomberg L.P. I did my BA in Computer Science at Wellesley
-          College.
+          <b>Previously:</b> Researcher at Apple
+          Inc. (contractor); Research Intern at Apple Inc.; UX Intern Bloomberg L.P.; BA in Computer Science at Wellesley
+          College; brief stint at Slade School of Fine Art
+          <br /> <br />
+          <b>Also:</b> Software engineer; designer; artist; parent
           <br /> <br />
           <i>
             background-image: a programmer for the 1940 US census. Just a
