@@ -19,22 +19,23 @@ class Bio extends Component {
             <br />
             <a href={cv}>cv</a>
             <br />
-            4607 Newell-Simon Hall
-            <br />
             pronouns: she/her
             <br />
-            mkery [at] cs.cmu.edu
+            mkery [at] apple.com
           </div>
         </div>
         <div className="row-right Bio-intro">
-          <b>UX for code.</b> I research programming practices, with a general goal to improve
-          developer experience for all. I use HCI methods
-          to study and design/create new tools to support individuals who do
-          data or ML coding such as developing machine learning models or
-          exploratory data analysis. Also passionate about teaching HCI, programming, and human-centered
-          ML/AI/data practice topics to give students a balance between technical rigor, and ethical design sensitivity.
+          <b>UX for code.</b> I research programming practices, with a general
+          goal to improve developer experience for all. I use HCI methods to
+          study and design/create new tools to support individuals who do data
+          or ML coding such as developing machine learning models or exploratory
+          data analysis. Also passionate about teaching HCI, programming, and
+          human-centered ML/AI/data practice topics to give students a balance
+          between technical rigor, and ethical design sensitivity.
           <br /> <br />
-          <b>Currently:</b> 5th year PhD student at the{" "}
+          <b>Currently:</b> Research Scientist at Apple AI/ML
+          <br /> <br />
+          <b>Previously:</b> PhD Student at{" "}
           <a href="https://hcii.cmu.edu/">
             Human-Computer Interaction Institute
           </a>{" "}
@@ -43,9 +44,8 @@ class Bio extends Component {
           <a href="http://www.cs.cmu.edu/~NatProg/">
             Natural Programming (BAM) Group
           </a>
-          <br /> <br />
-          <b>Previously:</b> Researcher at Apple
-          Inc. (contractor); Research Intern at Apple Inc.; UX Intern Bloomberg L.P.; BA in Computer Science at Wellesley
+          ; Researcher at Apple Inc. (contractor); Research Intern at Apple
+          Inc.; UX Intern Bloomberg L.P.; BA in Computer Science at Wellesley
           College; brief stint at Slade School of Fine Art
           <br /> <br />
           <b>Also:</b> Software engineer; designer; artist; parent
