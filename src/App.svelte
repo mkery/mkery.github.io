@@ -1,6 +1,6 @@
 <script>
   import About from "./About/index.svelte";
-  import Gallery from "./Art/ArtList.svelte";
+  import Gallery from "./Gallery/index.svelte";
   import Teaching from "./Teaching/index.svelte";
   import Research from "./Research/index.svelte";
 </script>
