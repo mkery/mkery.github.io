@@ -10,7 +10,7 @@
   <div class="row-left">
     <img
       class="Bio-image"
-      src="/static/media/IMG_9441.jpeg"
+      src="public/resources/mkery.jpeg"
       alt="Me, Mary Beth, with some coffee like we're having a chat."
     />
     <div class="Bio-contact">
