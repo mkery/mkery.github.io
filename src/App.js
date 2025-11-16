@@ -25,7 +25,7 @@ class App extends Component {
           <div className="nav nav-left">
             {this.showPageTitle(PAGES.ABOUT)}
             <div className="nav-title">
-              <a href="https://docs.google.com/document/d/1oeHCv2ClCO9JYpBACE7vhEUNlH211JMYnNpfbl9jYgY/edit">
+              <a href="https://docs.google.com/document/d/11NbAQDnSe4KxdwbF0kjj-Ydr33-4Q45SG0SCBXwobaQ/edit?usp=sharing">
                 CV
               </a>
             </div>
