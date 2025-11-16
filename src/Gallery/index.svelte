@@ -14,7 +14,8 @@
       title="Milk Junior"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
-    />
+    >
+    </iframe>
     <div slot="desc">
       Milk Junior is an animated short about a very poor svg rendering algorithm named milk junior who is struggling with a fear that he is stupider than everyone else. Created in a HTML Canvas using stupid algorithms [by me]!
     </div>
@@ -29,7 +30,7 @@
       title="Dancers"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
-    />
+    ></iframe>
     <div slot="desc">
       A film created with hand-drawn animation processed through a pix2pix model trained on dancers from CMU Panoptic dataset. Late night art project collaboration for an Art & ML class with Ken Holstein and Lea Albaugh.
     </div>
@@ -44,7 +45,7 @@
       title="Putti"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
-    />
+    ></iframe>
     <div slot="desc">
       Putti: Post-Human Art Crawl is a web game prototype that lets you explore the world of art history by walking within paintings. Based on depth detection from still paintings and open-source art archives. Collaboration with Ken Holstein.
     </div>

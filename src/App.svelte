@@ -34,10 +34,9 @@
   <div class="subtitle">
     {"/* Designing & developing futures of programming */"}
   </div>
-  <div class="subtitle" />
   <About />
-  <Research/>
-  <Teaching/>
-  <Gallery/>
-  <footer>Mary Beth Kery 2020 all rights reserved</footer>
+  <Research />
+  <Teaching />
+  <Gallery />
+  <footer>Mary Beth Kery 2025 all rights reserved</footer>
 </div>
