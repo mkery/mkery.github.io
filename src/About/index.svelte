@@ -1,4 +1,5 @@
 <script>
+  import profileImg from '/public/resources/mkery.jpg';
   const github = "https://github.com/mkery";
   const scholar =
     "https://scholar.google.com/citations?user=KR8gY5kAAAAJ&hl=en&oi=ao";
@@ -10,7 +11,7 @@
   <div class="row-left">
     <img
       class="Bio-image"
-      src="/public/resources/mkery.jpeg"
+      src={profileImg}
       alt="Me, Mary Beth, with some coffee like we're having a chat."
     />
     <div class="Bio-contact">
