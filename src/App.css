@@ -48,7 +48,8 @@ b {
   padding: 8px;
   display: flex;
   position: fixed;
-  width: 100%;
+  justify-content: space-around;
+  width: calc(100vw - 16px);
 }
 
 .header-name {
@@ -59,14 +60,8 @@ b {
   cursor: pointer;
 }
 
-.nav {
-  flex: 1 1 auto;
-  display: flex;
-  flex-direction: row;
-}
-
-.nav-right {
-  justify-content: flex-end;
+.tiny-nav {
+  display: none;
 }
 
 .nav-title {
@@ -76,14 +71,12 @@ b {
   cursor: pointer;
   color: #444;
 }
-.nav-title.current {
-  font-weight: bold;
-  color: #0a3348;
-}
+
 .nav-title:hover {
   font-weight: bold;
   color: #000;
 }
+
 .nav-title a {
   color: #444;
   text-decoration: none;
@@ -295,6 +288,7 @@ b {
     column-count: 4;
   }
 }
+
 @media (max-width: 900px) {
   .Portfolio {
     -moz-column-count: 2;
@@ -310,6 +304,7 @@ b {
     max-height: none;
   }
 }
+
 @media (max-width: 700px) {
   .Portfolio {
     -moz-column-count: 1;
@@ -344,4 +339,54 @@ b {
   width: 90%;
   margin: auto;
   line-height: 1.25em;
+}
+
+/* Mobile responsive header */
+@media (max-width: 768px) {
+  .nav-title {
+    display: none;
+  }
+
+  .tiny-nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .tiny-nav a {
+    color: white;
+    font-family: monospace;
+    text-decoration: overline;
+    margin: 8pt;
+    font-size: smaller;
+  }
+
+  .subtitle {
+    width: 100%;
+    font-size: smaller;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .row-left {
+    max-width: 100%;
+    margin: auto;
+    padding-bottom: 10px;
+  }
+
+  .Bio-image {
+    width: 100%;
+    max-width: 20em;
+    height: unset;
+  }
+
+  .Bio-contact {
+    text-align: center;
+  }
+
+  .project-title {
+    text-align: center;
+    margin-bottom: 0px;
+  }
 }

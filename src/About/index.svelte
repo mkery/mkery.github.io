@@ -24,15 +24,15 @@
   </div>
   <div class="row-right Bio-intro">
     <b>Designing Developer Experience.</b> The future of AI and programming ought to be 
-    a good future for everyone. I study emerging programming practices, with a goal to
+    a good future for everyone. I study programming for emerging technologies, with a goal to
     improve developer experience for all people. I use HCI methods to understand what 
-    people need and design/create new tools, APIs, and supports to help people make the 
-    most of AI and code. 
-    Also passionate about teaching, design, and responsible AI topics.
+    people need and craft new tools, APIs, and supports to help people make the 
+    most of code, AI and data. 
+    Also passionate about teaching, supporting underrepresented groups in tech, and responsible AI topics.
     <br /> <br />
     <b>Currently:</b> Research Scientist at Apple 🍎
     <br /> <br />
-    <b>Also:</b> Software engineer; designer; artist; parent
+    <b>Also:</b> Software engineer; designer; artist; writer; dog/cat person; parent; spouse of <a href="https://www.thecoalalab.com/kenholstein">Ken Holstein</a>
     <br /> <br />
     <i>
       background-image: a programmer for the 1940 US census. Just a reminder

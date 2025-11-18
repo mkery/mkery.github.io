@@ -7,32 +7,43 @@
 
 <div class="App">
   <div class="header">
-    <div class="nav nav-left">
-      <div class="nav-title current" role="button" tabindex="0">About</div>
-      <div class="nav-title">
-        <a
-          href="https://docs.google.com/document/d/11NbAQDnSe4KxdwbF0kjj-Ydr33-4Q45SG0SCBXwobaQ/edit?usp=sharing"
-        >
-          CV
-        </a>
-      </div>
+    <div class="nav-title" role="button" tabindex="0">About</div>
+    <div class="nav-title">
+      <a
+        href="https://docs.google.com/document/d/11NbAQDnSe4KxdwbF0kjj-Ydr33-4Q45SG0SCBXwobaQ/edit?usp=sharing"
+      >
+        CV
+      </a>
     </div>
     <div class="header-name" role="button" tabindex="0">MARY BETH KERY</div>
-    <div class="nav nav-right">
-      <div class="nav-title">
-        <a
-          href="https://scholar.google.com/citations?user=KR8gY5kAAAAJ&hl=en&oi=ao"
-        >
-          Google Scholar
-        </a>
-      </div>
-      <div class="nav-title">
-        <a href="https://github.com/mkery"> Github </a>
-      </div>
+    <div class="nav-title">
+      <a
+        href="https://scholar.google.com/citations?user=KR8gY5kAAAAJ&hl=en&oi=ao"
+      >
+        Google Scholar
+      </a>
+    </div>
+    <div class="nav-title">
+      <a href="https://github.com/mkery"> Github </a>
     </div>
   </div>
   <div class="subtitle">
-    {"/* Designing & developing futures of programming */"}
+    <span>
+      {"/* Designing & developing futures of programming */"}
+    </span>
+  </div>
+  <div class="tiny-nav">
+    <a
+      href="https://docs.google.com/document/d/11NbAQDnSe4KxdwbF0kjj-Ydr33-4Q45SG0SCBXwobaQ/edit?usp=sharing"
+    >
+      CV
+    </a>
+    <a
+      href="https://scholar.google.com/citations?user=KR8gY5kAAAAJ&hl=en&oi=ao"
+    >
+      Google Scholar
+    </a>
+    <a href="https://github.com/mkery"> Github </a>
   </div>
   <About />
   <Research />
